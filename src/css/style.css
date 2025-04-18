@@ -86,11 +86,19 @@ html {
 .matHeader * {
 	border-bottom: white solid 0.5px;
 	border-right: white solid 0.5px;
+	border-left: white solid 0.5px;
 }
 
 .matHeader,
 .mats > .row * {
-	border-left: white solid 0.5px;
+	border-left: rgba(255, 255, 255, 0) solid 0.5px;
+}
+
+.compicon {
+	width: 16px;
+	height: 16px;
+	margin-right: 6px;
+	vertical-align: middle;
 }
 
 .scroll {
